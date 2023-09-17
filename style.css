@@ -54,10 +54,18 @@ body {
 
 }
 
+#experiencia h2 {
+    text-align: center;
+}
+
 
 .proyecto {
     padding-top: 12px;
     padding-bottom: 12px;
+    border-radius: 12px;
+    border: 1px solid #a226c1;
+    margin-top: 8px;
+    padding: 4px;
 }
 
 .proyecto>p {
@@ -163,9 +171,9 @@ a {
         margin-bottom: 12px;
     }
 
-   .proyecto p {
-    text-align: initial;
-   }
+    .proyecto p {
+        text-align: initial;
+    }
 
     .proyecto>p>strong {
         display: block;
