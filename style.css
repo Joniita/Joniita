@@ -35,6 +35,10 @@ body {
     padding-bottom: 28px;
 }
 
+#sobre-mi p {
+    font-size: 20px;
+}
+
 #foto {
     width: 200px;
     border-radius: 50%;
@@ -90,7 +94,13 @@ span {
     border: 1px solid #a226c1;
 }
 
-a {
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
     margin-right: 24px;
     text-decoration: none;
     background-color: #5d186e;
@@ -99,11 +109,6 @@ a {
     border: 1px solid white;
     border-radius: 12px;
     margin-top: 8px;
-}
-
-.link {
-    display: flex;
-    justify-content: center;
 }
 
 #conocimientos {
@@ -120,6 +125,18 @@ a {
     width: 80%;
     padding-top: 24px;
     padding-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+#socialMedia {
+    display: flex;
+    margin: 0px auto;
+    width: 80%;
+    justify-content: space-evenly;
 }
 
 @media (max-width: 1200px) {
